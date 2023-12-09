@@ -60,7 +60,7 @@
  ```bash
  mysql -u myuser -p
  ```
-16. enter
+16. enter in mysql terminal
     ```bash
     show databases;
     ```
