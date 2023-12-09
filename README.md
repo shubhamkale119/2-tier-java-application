@@ -52,4 +52,28 @@
     ```bash
     docker run -d -p 3306:3306 --network=twotier -e MYSQL_DATABASE=myDb -e MYSQL_USER=admin -e MYSQLPASSWORD=admin -e MYSQL_ROOT_PASSWORD=admin --name=mysql mysql:5.7
     ```
+14. make mysql as interactive terminal as
+    ```bash
+    docker exec -it mysqlID bash
+    ```
+15.login to mysql database
+   ```bash
+   mysql -u myuser -p
+   ```
+16. enter
+    ```bash
+    show databases;
+    ```
+17. Create the messages table in your MySQL database:
+     - Use a MySQL client or tool (e.g., phpMyAdmin) to execute the following SQL commands:
+   
+     ```sql
+     CREATE TABLE messages (
+         id INT AUTO_INCREMENT PRIMARY KEY,
+         message TEXT
+     );
+     ```
+
+18. Interact with app
+    visit http://15.206.168.175:5000/ to see the app
     
