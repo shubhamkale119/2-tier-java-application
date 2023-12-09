@@ -4,6 +4,6 @@
 2. connect using SSH
 
 3. Install Docker on it
-   '''bash
+   ```bash
    sudo apt install docker.io
-   '''bash
+   ```bash
