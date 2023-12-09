@@ -6,4 +6,4 @@
 3. Install Docker on it
    ```bash
    sudo apt install docker.io
-   ```bash
+   ```
