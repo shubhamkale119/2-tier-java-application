@@ -57,9 +57,9 @@
     docker exec -it mysqlID bash
     ```
 15.login to mysql database
-     ```bash
-     mysql -u myuser -p
-     ```
+ ```bash
+ mysql -u myuser -p
+ ```
 16. enter
     ```bash
     show databases;
